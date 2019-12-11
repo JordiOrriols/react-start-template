@@ -1,8 +1,17 @@
+/*!
+ * (C) Copyright 2020.
+ * All Rights Reserved.
+ *
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential.
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+import './index.scss';
 import * as serviceWorker from './serviceWorker';
+import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
