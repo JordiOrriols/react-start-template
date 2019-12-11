@@ -9,7 +9,7 @@
 import React from 'react';
 
 import src from './logo.svg';
-import './welcome.scss';
+import './welcome.css';
 
 const Welcome: React.FC = (): React.ReactElement => {
     return (

@@ -6,16 +6,13 @@
  * Proprietary and confidential.
  */
 
-import { Welcome } from '@storybook/react/demo';
 import React from 'react';
+
+import Welcome from './welcome';
 
 export default {
     component: Welcome,
     title: 'Welcome'
 };
 
-export const ToStorybook = (): React.ReactElement => <Welcome />;
-
-ToStorybook.story = {
-    name: 'to Storybook'
-};
+export const Default = (): React.ReactElement => <Welcome />;
