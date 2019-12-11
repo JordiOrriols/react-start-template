@@ -9,7 +9,7 @@
 import React from 'react';
 
 import Welcome from './components/welcome/welcome';
-import './App.scss';
+import './App.css';
 
 const App: React.FC = (): React.ReactElement => {
     return (
