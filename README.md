@@ -1,5 +1,27 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# REQUIREMENTS
+
+Install
+
+- nvm
+
+# SETUP
+
+First we ensure to have the correct nvm version
+
+```bash
+nvm install
+```
+
+To install the dependencies run
+
+```bash
+npm install
+```
+
+# DEVELOPING
+
 ## Available Scripts
 
 In the project directory, you can run:
