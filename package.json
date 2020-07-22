@@ -5,6 +5,8 @@
   "dependencies": {
     "@storybook/addon-actions": "5.3.19",
     "@storybook/addon-links": "5.3.19",
+    "@storybook/addon-storyshots": "^5.3.19",
+    "@storybook/addon-storyshots-puppeteer": "^5.3.19",
     "@storybook/addons": "5.3.19",
     "@storybook/preset-create-react-app": "3.1.4",
     "@storybook/react": "5.3.19",
@@ -19,9 +21,11 @@
     "husky": "^4.2.5",
     "lint-staged": "10.2.11",
     "prettier": "2.0.5",
+    "puppeteer": "^5.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-test-renderer": "^16.13.1",
     "source-map-explorer": "2.4.2",
     "stylelint": "13.6.1",
     "stylelint-config-recommended-scss": "4.2.0",
@@ -29,7 +33,8 @@
     "tslint": "6.1.2",
     "tslint-config-prettier": "1.18.0",
     "tslint-react": "5.0.0",
-    "typescript": "3.9.7"
+    "typescript": "3.9.7",
+    "webpack": "4.42.0"
   },
   "scripts": {
     "analyze": "react-scripts build && source-map-explorer 'build/static/js/*.js'",
@@ -58,12 +63,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@storybook/addon-storyshots": "^5.3.19",
-    "@storybook/addon-storyshots-puppeteer": "^5.3.19",
-    "puppeteer": "^5.2.1",
-    "react-test-renderer": "^16.13.1",
-    "webpack": "4.42.0"
   }
 }
