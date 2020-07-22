@@ -64,6 +64,6 @@
     "@storybook/addon-storyshots-puppeteer": "^5.3.19",
     "puppeteer": "^5.2.1",
     "react-test-renderer": "^16.13.1",
-    "webpack": "^4.43.0"
+    "webpack": "4.42.0"
   }
 }
