@@ -34,6 +34,36 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+### `npm run storybook`
+
+Runs the storybook component documentation.<br />
+
+The page will reload if you make edits.<br />
+
+### `npm run build-storybook`
+
+Builds the storybook component documentation if you plan to upload it to a server as static files.<br />
+
+### `npm run analyze`
+
+Builds the project and analyze the different build files.<br />
+
+### `npm run stylelint`
+
+Linting all css and scss files.<br />
+
+### `npm run stylelintAndFix`
+
+Fixes all auto-fixable linting errors on all css and scss files.<br />
+
+### `npm run tslint`
+
+Linting for all javascript and typescript files. (This should be moved to use eslint)<br />
+
+### `npm run tslint`
+
+Fixes all auto-fixable linting errors on all javascript and typescript files. (This should be moved to use eslint)<br />
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
